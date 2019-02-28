@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>index created by xiaogang on 2019/2/28</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../common/iconfont/iconfont.css"/>
+    <link type="text/css" rel="stylesheet" href="../common/base.css"/>
+    <link type="text/css" rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+<div class="container">
+    <!--监控指标-->
+    <div class="row target">
+        <div class="col-2">
+            <div class="pre-vertical-center">
+                监控指标 <span class="iconfont icon-info-circle-fill"></span>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="target_up">
+                <label class="form-check-label" for="target_up">
+                    带宽上限 <input type="text" class="input-item" placeholder="0" value="11"> %
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="target_down">
+                <label class="form-check-label" for="target_down">
+                    带宽下限 <input type="text" class="input-item" placeholder="0" value="04"> %
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="target_pre_down">
+                <label class="form-check-label" for="target_pre_down">
+                    对比前一天一小时下降 <input type="text" class="input-item" placeholder="0" value="04"> %
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="target_pre_up">
+                <label class="form-check-label" for="target_pre_up">
+                    带宽下限 <input type="text" class="input-item" placeholder="0" value="04"> %
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            取消
+        </div>
+    </div>
+
+    <!--联系方式-->
+    <div class="row contact">
+        <div class="col-2">
+            <div class="pre-vertical-center">
+                联系方式
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="card">
+                <div class="card-header">
+                    联系人列表
+                </div>
+                <div class="card-body">
+                    <button type="button" class="btn btn-primary">张三</button>
+                    <button type="button" class="btn btn-primary">李四</button>
+                    <button type="button" class="btn btn-primary">王五</button>
+                </div>
+            </div>
+            <div class="choose d-inline-block">
+                <span class="iconfont icon-right-square-fill"></span>
+                <span class="iconfont icon-right-square-fill"></span>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    已选联系人
+                </div>
+                <div class="card-body">
+                    <button type="button" class="btn btn-primary">张三</button>
+                    <button type="button" class="btn btn-primary">李四</button>
+                    <button type="button" class="btn btn-primary">王五</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            取消
+        </div>
+    </div>
+
+    <!--持续告警周期-->
+    <div class="row warning-cycle">
+        <div class="col-2">
+            <div class="pre-vertical-center">
+                持续告警周期 <span class="iconfont icon-info-circle-fill"></span>
+            </div>
+        </div>
+        <div class="col-7">
+            <input type="text" class="input-item" placeholder="0" value="11"> %
+        </div>
+        <div class="col">
+            取消
+        </div>
+    </div>
+
+    <!--告警消除消息-->
+    <div class="row warning_miss">
+        <div class="col-2">
+            <div class="pre-vertical-center">
+                告警消除消息
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="warning_miss_radios" id="warning_miss_no"
+                       value="option1" checked>
+                <label class="form-check-label" for="warning_miss_no">
+                    关
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="warning_miss_radios" id="warning_miss_yes"
+                       value="option2">
+                <label class="form-check-label" for="warning_miss_yes">
+                    开
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            取消
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<!--<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>-->
+</html>

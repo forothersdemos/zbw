@@ -1,0 +1,10 @@
+/**
+* 解决垂直方向的一些问题
+**/
+.pre-vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}

@@ -1,0 +1,29 @@
+.container .row {
+    margin: 1rem 0;
+}
+
+/*target*/
+.container .target .form-check {
+    margin: 0.3rem 0;
+}
+
+.container .target input.form-check-input {
+    line-height: 100%;
+    height: 100%;
+    margin-top: 0.1rem;
+}
+
+.container .target input.input-item {
+    width: 2rem;
+}
+
+/*联系人*/
+.container .contact .card {
+    width: 40%;
+    display: inline-block;
+}
+
+.container .contact .card button {
+    margin-bottom: 0.2rem;
+    display: block;
+}
