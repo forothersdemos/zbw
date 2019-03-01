@@ -45,3 +45,14 @@
     margin-bottom: 0.2rem;
     display: block;
 }
+
+/*x 对象*/
+.container .object button {
+    margin: 0.2rem;
+}
+
+.container .object .custom-checkbox {
+    display: inline-block;
+    min-width: 20%;
+    margin: 0.5rem;
+}
