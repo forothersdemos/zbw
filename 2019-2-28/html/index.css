@@ -23,6 +23,24 @@
     display: inline-block;
 }
 
+.container .contact .choose {
+    width: 12%;
+    height: 100%;
+}
+
+.container .contact .iconfont {
+    display: block;
+    font-size: 2rem;
+}
+
+.container .contact .iconfont.add {
+    top: 70%
+}
+
+.container .contact .iconfont.remove {
+    top: 30%
+}
+
 .container .contact .card button {
     margin-bottom: 0.2rem;
     display: block;

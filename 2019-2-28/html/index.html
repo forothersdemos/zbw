@@ -14,12 +14,12 @@
 <div class="container">
     <!--监控指标-->
     <div class="row target">
-        <div class="col-2">
+        <div class="col-3">
             <div class="pre-vertical-center">
                 监控指标 <span class="iconfont icon-info-circle-fill"></span>
             </div>
         </div>
-        <div class="col-7">
+        <div class="col-8">
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="target_up">
                 <label class="form-check-label" for="target_up">
@@ -52,12 +52,12 @@
 
     <!--联系方式-->
     <div class="row contact">
-        <div class="col-2">
+        <div class="col-3">
             <div class="pre-vertical-center">
                 联系方式
             </div>
         </div>
-        <div class="col-7">
+        <div class="col-8">
             <div class="card">
                 <div class="card-header">
                     联系人列表
@@ -68,11 +68,15 @@
                     <button type="button" class="btn btn-primary">王五</button>
                 </div>
             </div>
-            <div class="choose d-inline-block">
-                <span class="iconfont icon-right-square-fill"></span>
-                <span class="iconfont icon-right-square-fill"></span>
+            <!--<div class="choose d-inline-block">-->
+            <!--<span class="d-inline-block iconfont icon-right-square-fill"></span>-->
+            <!--<span class="d-inline-block iconfont icon-right-square-fill"></span>-->
+            <!--</div>-->
+            <div class="choose pre-vertical-center">
+                <span class="pre-vertical-center add iconfont icon-right-square-fill"></span>
+                <span class="pre-vertical-center remove iconfont icon-left-square-fill"></span>
             </div>
-            <div class="card">
+            <div class="card" style="left: 20%;">
                 <div class="card-header">
                     已选联系人
                 </div>
@@ -90,12 +94,12 @@
 
     <!--持续告警周期-->
     <div class="row warning-cycle">
-        <div class="col-2">
+        <div class="col-3">
             <div class="pre-vertical-center">
                 持续告警周期 <span class="iconfont icon-info-circle-fill"></span>
             </div>
         </div>
-        <div class="col-7">
+        <div class="col-8">
             <input type="text" class="input-item" placeholder="0" value="11"> %
         </div>
         <div class="col">
@@ -105,12 +109,12 @@
 
     <!--告警消除消息-->
     <div class="row warning_miss">
-        <div class="col-2">
+        <div class="col-3">
             <div class="pre-vertical-center">
                 告警消除消息
             </div>
         </div>
-        <div class="col-7">
+        <div class="col-8">
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="warning_miss_radios" id="warning_miss_no"
                        value="option1" checked>
@@ -141,5 +145,5 @@
 <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-<!--<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="./index.js"></script>
 </html>
